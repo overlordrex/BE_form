@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import authRoutes from './routes/auth.js';
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8800;
 
 const app = express();
 dotenv.config();
